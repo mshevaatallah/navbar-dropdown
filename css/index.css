@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  background-color: aqua;
+}
+
+.nav-links {
+  margin-left: 50px;
+  display: flex;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+.home-dropdown {
+  display: none;
+}
+
+.home:hover .home-dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: aquamarine;
+}
+
+.aktifitas:hover .home-dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: aquamarine;
+}
